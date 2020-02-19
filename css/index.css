@@ -162,6 +162,16 @@ header .navname h1 {
 }
 h1 {
   width: 100%;
+  font-size: 7rem;
+}
+h2 {
+  font-size: 2.5rem;
+  padding: 5%;
+  align-content: center;
+}
+p,
+address {
+  padding: 5%;
 }
 .bigcontainer {
   display: flex;
@@ -169,6 +179,7 @@ h1 {
 .personal {
   width: 30%;
   height: 500px;
+  background-color: yellowgreen;
 }
 .personal .personalprofile {
   padding: 5%;
@@ -181,6 +192,7 @@ h1 {
 }
 .workedu {
   width: 100%;
+  background-color: gray;
 }
 .workedu .workhistory {
   padding: 5%;
