@@ -156,9 +156,10 @@ header .navname {
 }
 header .navname nav {
   justify-content: space-evenly;
+  margin-bottom: 3%;
 }
 header .navname h1 {
-  justify-content: flex-end;
+  align-content: flex-end;
 }
 h1 {
   width: 100%;
@@ -173,27 +174,38 @@ p,
 address {
   padding: 5%;
 }
+h3 {
+  font-size: 2rem;
+  padding: 1%;
+}
+ul {
+  list-style-type: circle;
+}
 .bigcontainer {
   display: flex;
+  line-height: 3rem;
 }
 .personal {
-  width: 30%;
-  height: 500px;
+  width: 45%;
+  height: 900px;
   background-color: yellowgreen;
 }
 .personal .personalprofile {
-  padding: 5%;
+  padding: 10%;
 }
 .personal .talktome {
-  padding: 5%;
+  padding: 10%;
 }
 .personal .generalintrests {
-  padding: 5%;
+  padding: 10%;
 }
 .workedu {
   width: 100%;
   background-color: gray;
 }
 .workedu .workhistory {
+  padding: 5%;
+}
+.workedu .edu2 {
   padding: 5%;
 }
