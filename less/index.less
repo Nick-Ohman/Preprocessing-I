@@ -52,7 +52,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid black;
+	// border: 1px solid black;
 }
 
 html, body {
@@ -72,6 +72,11 @@ body{
 
 @main-font:'Roboto Slab', serif;
 @heading-font:'Ruda', sans-serif;
+//mixins
+.colorbox(){
+	border: 1px solid red;
+}
+
 //stuff in the header
 header{
 	width:100%;
@@ -90,10 +95,12 @@ header{
 		flex-direction: column;
 		font-family: @heading-font;
 		
+		
 	nav{
 		display: flex;
 		justify-content: space-between;
 		margin: 3% 3% 6% 3%;
+		.colorbox();
 
 		a{
 			font-size: 2rem;
@@ -168,7 +175,7 @@ ul{
 
 .workedu{
 	width:100%;
-	background-color:blue;
+	
 
 	.workhistory{
 		padding: 5%;
@@ -177,4 +184,10 @@ ul{
 		padding:5%;
 
 	}
+}
+
+@media(max-width:500px){
+	img{
+		display: hidden;
 	}
+}
