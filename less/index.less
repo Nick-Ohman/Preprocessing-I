@@ -66,11 +66,18 @@ body{
 	font-size:1.6rem;
 }
 
+
+//variables and media and fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+@main-font:'Roboto Slab', serif;
+@heading-font:'Ruda', sans-serif;
 //stuff in the header
 header{
 	width:100%;
 	height: 40vh;
 	display:flex;
+	font-family:@main-font;
 	
 	img{
 		width: 300px;
@@ -81,9 +88,18 @@ header{
 		width:100%;
 		display: flex;
 		flex-direction: column;
+		font-family: @heading-font;
+		
 	nav{
-		justify-content:space-evenly;
-		margin-bottom: 3%;
+		display: flex;
+		justify-content: space-between;
+		margin: 3% 3% 6% 3%;
+
+		a{
+			font-size: 2rem;
+			text-decoration: none;
+			color:black;
+	
 	}//closes the nav
 	
 	h1{
@@ -127,7 +143,7 @@ ul{
 .personal{
 	width: 45%;
 	height: 900px;
-	background-color: yellowgreen;
+	background-color: lightblue;
 	
 
 	
@@ -152,13 +168,13 @@ ul{
 
 .workedu{
 	width:100%;
-	background-color: gray;
+	background-color:blue;
 
 	.workhistory{
 		padding: 5%;
-	}
+	
 	.edu2{
 		padding:5%;
 
 	}
-}	
+	}

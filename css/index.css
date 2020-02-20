@@ -155,8 +155,14 @@ header .navname {
   flex-direction: column;
 }
 header .navname nav {
-  justify-content: space-evenly;
-  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 3% 6% 3%;
+}
+header .navname nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
 }
 header .navname h1 {
   align-content: flex-end;
@@ -188,7 +194,7 @@ ul {
 .personal {
   width: 45%;
   height: 900px;
-  background-color: yellowgreen;
+  background-color: lightblue;
 }
 .personal .personalprofile {
   padding: 10%;
@@ -201,7 +207,7 @@ ul {
 }
 .workedu {
   width: 100%;
-  background-color: gray;
+  background-color: whitesmoke;
 }
 .workedu .workhistory {
   padding: 5%;
