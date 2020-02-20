@@ -175,15 +175,17 @@ header .navname nav {
   justify-content: space-between;
   margin: 3% 3% 6% 3%;
   border: 1px solid red;
+  padding: 2%;
 }
 header .navname nav a {
-  font-size: 2rem;
+  font-size: 3rem;
   text-decoration: none;
   color: black;
 }
 header .navname h1 {
   align-content: flex-end;
   padding-left: 5%;
+  padding-top: 6% ;
 }
 h1 {
   width: 100%;
